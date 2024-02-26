@@ -496,15 +496,7 @@ section .get-in-touch {
   top: 50%;
   /* transform: translateY(-50%); */
 }
-/* .get-in-touch .title {
-  text-align: center;
-  font-family: Raleway, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 36px;
-  line-height: 48px;
-  padding-bottom: 48px;
-} */
+
 
 .contact-form .form-field {
   position: relative;
@@ -575,11 +567,11 @@ section .get-in-touch {
 /* endddddd */
 @media (max-width: 1570px) {
   .home {
-    padding: 8rem 6rem;
+    padding: 9rem 1rem;
   }
   .btn {
-    margin-top: 9rem;
-    margin-left: 32rem;
+    margin-top: 15rem;
+    margin-left: 42rem;
   }
 }
 
@@ -588,37 +580,88 @@ section .get-in-touch {
     font-size: 55%;
   }
   .home {
-    padding: 10rem 66rem;
+    padding: -1rem 30rem;
   }
   .card {
     margin: 0rem -3rem;
   }
 }
 @media (max-width: 990px) {
+  body {
+    background: #dfdbd6;
+    overflow-x: hidden;
+    padding-left: 0rem;
+    padding-top: 1rem;
+  }
+
   header {
     left: -120%;
   }
+  .home {
+    padding: 0rem 30rem;
+  }
+  .home h1 {
+    margin-left: 8rem;
+    margin-top: 4rem;
+  }
+  .home p {
+    font-size: 5rem;
+    color: #f3f3f3;
+    padding: 1rem 0rem;
+    padding-left: 3rem;
 
-  #menu {
-    display: block;
-  }
-  header.toggle {
-    left: 0%;
-  }
-  .card {
-    margin: 0rem -7rem;
+    #menu {
+      display: block;
+    }
+    header.toggle {
+      left: 0%;
+    }
+    .card {
+      margin: 0rem -7rem;
+    }
   }
 }
 @media (max-width: 768px) {
   html {
     font-size: 50%;
   }
+  .home {
+    padding: 0rem 30rem;
+  }
   .card {
     margin: 0rem -11rem;
   }
+  body {
+    background: #dfdbd6;
+    overflow-x: hidden;
+    padding-left: 1rem;
+  }
+  .home h1 {
+    margin-left: -8rem;
+    margin-top: 4rem;
+  }
+  .home p {
+    font-size: 4rem;
+    color: #f3f3f3;
+    padding: 2rem 4rem;
+    padding-left: 0rem;
+    margin-left: -12rem;
+  }
+  .btn {
+    margin-top: 26rem;
+    margin-left: -13rem;
+  }
 }
-
 @media (max-width: 400px) {
+  body {
+    background: #dfdbd6;
+    overflow-x: hidden;
+    padding-left: 1rem;
+  }
+  .home {
+    padding: 0rem 30rem;
+  }
+
   header {
     width: 100vw;
   }
