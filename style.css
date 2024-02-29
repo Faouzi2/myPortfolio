@@ -382,7 +382,7 @@ section .about #about {
 }
 
 input:checked + label {
-  width: 60rem;
+  width: 48rem;
   border: 1px solid #000;
 }
 
