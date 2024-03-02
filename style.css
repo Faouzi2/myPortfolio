@@ -611,7 +611,7 @@ footer p {
   }
   footer p {
     margin-top: 17rem;
-    margin-left: 8rem;
+    margin-left: 0rem;
   }
 }
 
@@ -646,7 +646,7 @@ footer p {
   }
   .home p {
     font-size: 5rem;
-    color: #f3f3f3;
+    color: #0c0c0c;
     padding: 1rem 0rem;
     padding-left: 3rem;
 
@@ -666,23 +666,23 @@ footer p {
     font-size: 50%;
   }
   .home {
-    padding: 0rem 30rem;
+    padding: 1rem 20rem;
+    width: 11rem;
+    border: none;
   }
-  .card {
-    margin: 0rem -11rem;
-  }
+
   body {
     background: #dfdbd6;
     overflow-x: hidden;
     padding-left: 1rem;
   }
   .home h1 {
-    margin-left: -8rem;
-    margin-top: 4rem;
+    margin-left: -15rem;
+    margin-top: 15rem;
   }
   .home p {
     font-size: 4rem;
-    color: #f3f3f3;
+    color: #101010;
     padding: 2rem 4rem;
     padding-left: 0rem;
     margin-left: -12rem;
@@ -690,6 +690,10 @@ footer p {
   .btn {
     margin-top: 26rem;
     margin-left: -13rem;
+  }
+  input:checked + label {
+    width: 27rem;
+    border: 1px solid #000;
   }
 }
 @media (max-width: 400px) {
@@ -722,3 +726,4 @@ footer p {
     width: 200px;
   }
 }
+
