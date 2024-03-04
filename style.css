@@ -55,7 +55,7 @@ section {
 
 .btn {
   padding: 1rem 6rem;
-  background: #e3e3e608;
+  background: #fffffffa;
   color: #000000;
   margin-top: 18rem;
   margin-left: 80rem;
@@ -174,17 +174,17 @@ header .navbar ul li a:hover {
   flex-flow: column;
   padding: 10rem 12rem;
   border: 5rem solid #111115;
-  background-image: url(./welcome.jpg);
+  background-color: #12232e;
   background-position: center;
   background-size: cover;
 }
 .home h3 {
   font-size: 2.5rem;
-  color: #2e1212;
+  color: #bfb9b9a2;
 }
 .home h1 {
   font-size: 6rem;
-  color: #181616;
+  color: #d8747b;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
   margin-top: 5rem;
@@ -200,7 +200,8 @@ header .navbar ul li a:hover {
 
 .home p {
   font-size: 8rem;
-  color: #181616;
+  font-weight: 600;
+  color: #ffffff;
   padding: 1rem 0rem;
   padding-left: 71rem;
 }
@@ -378,7 +379,7 @@ section .about #about {
 .description h4 {
   text-transform: uppercase;
   font-size: 3rem;
-  color: #ffff;
+  color: #111111;
 }
 
 input:checked + label {
@@ -598,16 +599,16 @@ footer p {
     padding: 9rem 1rem;
   }
   .btn {
-    margin-top: 15rem;
-    margin-left: 42rem;
+    margin-top: 12rem;
+    margin-left: 29rem;
   }
   .home h1 {
-    margin-top: 10rem;
-    margin-left: 25rem;
+    margin-top: 4rem;
+    margin-left: 7rem;
   }
   .home p {
     margin-top: 3rem;
-    margin-left: -48rem;
+    margin-left: -59rem;
   }
   footer p {
     margin-top: 17rem;
@@ -641,59 +642,77 @@ footer p {
     padding: 0rem 30rem;
   }
   .home h1 {
-    margin-left: 8rem;
-    margin-top: 4rem;
+    margin-left: -23rem;
+    margin-top: 5rem;
   }
   .home p {
     font-size: 5rem;
-    color: #0c0c0c;
+    color: #fcfcfc;
     padding: 1rem 0rem;
-    padding-left: 3rem;
-
-    #menu {
-      display: block;
-    }
-    header.toggle {
-      left: 0%;
-    }
-    .card {
-      margin: 0rem -7rem;
-    }
+    padding-left: 36rem;
+  }
+  .btn {
+    margin-top: 7rem;
+    margin-left: -6rem;
+  }
+  #menu {
+    display: block;
+  }
+  header.toggle {
+    left: 0%;
+  }
+  .card {
+    margin: -4rem 0rem;
   }
 }
+
 @media (max-width: 768px) {
   html {
     font-size: 50%;
   }
   .home {
-    padding: 1rem 20rem;
-    width: 11rem;
+    padding: 0rem 15rem;
+    width: 55rem;
     border: none;
+    margin-left: 0rem;
+  }
+  section {
+    padding: 2rem;
   }
 
   body {
     background: #dfdbd6;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     padding-left: 1rem;
   }
   .home h1 {
-    margin-left: -15rem;
+    font-size: 3.5rem;
+    margin-left: -12rem;
     margin-top: 15rem;
   }
   .home p {
     font-size: 4rem;
-    color: #101010;
-    padding: 2rem 4rem;
-    padding-left: 0rem;
-    margin-left: -12rem;
+    color: #ffffff;
+    padding: 0rem 12rem;
+    padding-left: 12rem;
+    margin-left: -24rem;
   }
   .btn {
-    margin-top: 26rem;
-    margin-left: -13rem;
+    margin-top: 5rem;
+    margin-left: -6rem;
+  }
+  .card {
+    margin: 18rem 0rem;
+    width: 4rem;
+    height: -3rem;
   }
   input:checked + label {
-    width: 27rem;
+    width: 22rem;
     border: 1px solid #000;
+  }
+  .media i {
+    display: contents;
+    justify-content: center;
   }
 }
 @media (max-width: 400px) {
@@ -726,4 +745,3 @@ footer p {
     width: 200px;
   }
 }
-
