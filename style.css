@@ -3,15 +3,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Protest+Revolution&family=Quicksand:wght@300..700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Protest+Revolution&family=Quicksand:wght@300..700&display=swap");
+
 root {
   --blue: #08b6eb;
 }
 
 * {
   /* font-family: "Frank Ruhl Libre", serif; */
-  font-family: "Quicksand", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
+  /*   
   font-optical-sizing: auto;
   font-weight: 100;
+  font-style: normal; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -55,14 +61,14 @@ section {
 
 .btn {
   padding: 1rem 6rem;
-  background: #fffffffa;
+  background: none;
   color: #000000;
   margin-top: 18rem;
   margin-left: 80rem;
   font-size: 2rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  border: 1px solid black;
+  border: 2px solid black;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -72,9 +78,11 @@ section {
   font-size: 1.8rem;
 }
 .btn:hover {
-  background: #203647;
+  background: none;
   transition: 2s;
   color: #eefbfb;
+  border: 2px solid #cc005f;
+  transition: 1s;
 }
 .heading {
   text-align: center;
@@ -174,6 +182,7 @@ header .navbar ul li a:hover {
   flex-flow: column;
   padding: 10rem 12rem;
   border: 5rem solid #111115;
+  background-image: url(./stars.jpg);
   background-color: #12232e;
   background-position: center;
   background-size: cover;
@@ -184,7 +193,7 @@ header .navbar ul li a:hover {
 }
 .home h1 {
   font-size: 6rem;
-  color: #d8747b;
+  color: #cc005f;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
   margin-top: 5rem;
@@ -205,8 +214,8 @@ header .navbar ul li a:hover {
   padding: 1rem 0rem;
   padding-left: 71rem;
 }
-section .about #about {
-  background-image: url(./coffee.jpg);
+section #about {
+  background-image: url(./desknight.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -216,9 +225,9 @@ section .about #about {
   justify-content: center;
   flex-wrap: wrap;
   padding: 40rem 0;
-  /* background-image: url(./office.jpg);
+  background-image: url(./atm.jpg);
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
 }
 .about .row .info {
   flex: 1 1 48rem;
@@ -226,15 +235,15 @@ section .about #about {
   padding-left: 6rem;
 }
 .about .row .info h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   font-style: initial;
-  color: #051936;
-  padding: 10rem 3rem;
+  color: #ffffff;
+  padding: 2rem 3rem;
   font-weight: normal;
   margin-top: -40rem;
-  margin-left: -6rem;
-  background-color: #a9c1c854;
+  margin-left: -5rem;
+  background-color: #a9c1c85b;
 }
 .about .row .info h3 span {
   color: #eefbfb;
@@ -378,7 +387,7 @@ section .about #about {
 
 .description h4 {
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #111111;
 }
 
@@ -394,16 +403,20 @@ input:checked + label .description {
 
 .card[for="c1"] {
   background-image: url(./weather\ app.png);
-  background-color: rgba(81, 188, 220, 0.194);
-  padding-bottom: 39rem;
+  background-position: center;
+  padding-bottom: 38rem;
 }
 .card[for="c2"] {
-  /* background-image: url("./desk.jpg"); */
-  padding-bottom: -10rem;
+  background-image: url(./quizapp2.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 38rem;
 }
 .card[for="c3"] {
-  /* background-image: url("./developer\ pic.jpeg"); */
-  padding-bottom: 20rem;
+  background-image: url(./stock-sys.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 38rem;
 }
 .card[for="c4"] {
   /* background-image: url("./desk.jpg"); */
@@ -677,7 +690,8 @@ footer p {
     margin-left: 0rem;
   }
   section {
-    padding: 2rem;
+    padding: 0rem;
+    border: none;
   }
 
   body {
@@ -687,7 +701,7 @@ footer p {
   }
   .home h1 {
     font-size: 3.5rem;
-    margin-left: -12rem;
+    margin-left: -14rem;
     margin-top: 15rem;
   }
   .home p {
@@ -722,7 +736,7 @@ footer p {
     padding-left: 1rem;
   }
   .home {
-    padding: 0rem 30rem;
+    padding: 10rem 17rem;
   }
 
   header {
@@ -742,6 +756,14 @@ footer p {
   } */
   }
   input:checked + label {
-    width: 200px;
+    width: 20rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    margin: 7rem 0rem;
+    width: 4rem;
+    height: 37rem;
   }
 }
