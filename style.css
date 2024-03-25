@@ -53,10 +53,15 @@ body {
 section {
   min-height: 70vh;
   padding: 6rem;
-  /* background-image: url(./office.jpg); */
+  /* background-image: url(./positive.jpg); */
   background-position: center;
   background-color: #eefbfb;
   border: 5rem solid #111115;
+}
+section#about.about {
+  /* background-image: url(./positive.jpg); */
+  background-position: center;
+  background-size: cover;
 }
 
 .btn {
@@ -197,7 +202,7 @@ header .navbar ul li a:hover {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 600;
   margin-top: 5rem;
-  margin-left: 74rem;
+  margin-left: 13rem;
 }
 .home h1 span {
   color: #181616;
@@ -212,22 +217,15 @@ header .navbar ul li a:hover {
   font-weight: 600;
   color: #ffffff;
   padding: 1rem 0rem;
-  padding-left: 71rem;
+  padding-left: 25rem;
 }
-section #about {
-  background-image: url(./desknight.jpg);
-  background-position: center;
-  background-size: cover;
-}
+
 .about .row {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding: 40rem 0;
-  background-image: url(./atm.jpg);
-  background-position: center;
-  background-size: cover;
 }
 .about .row .info {
   flex: 1 1 48rem;
@@ -238,7 +236,7 @@ section #about {
   font-size: 2.5rem;
   font-weight: 700;
   font-style: initial;
-  color: #ffffff;
+  color: #0d0000;
   padding: 2rem 3rem;
   font-weight: normal;
   margin-top: -40rem;
@@ -413,7 +411,7 @@ input:checked + label .description {
   padding-bottom: 38rem;
 }
 .card[for="c3"] {
-  background-image: url(./stock-sys.jpeg);
+  background-image: url(./manag.jpg);
   background-position: center;
   background-size: cover;
   padding-bottom: 38rem;
@@ -621,7 +619,7 @@ footer p {
   }
   .home p {
     margin-top: 3rem;
-    margin-left: -59rem;
+    margin-left: -10rem;
   }
   footer p {
     margin-top: 17rem;
@@ -655,14 +653,14 @@ footer p {
     padding: 0rem 30rem;
   }
   .home h1 {
-    margin-left: -23rem;
-    margin-top: 5rem;
+    margin-left: -10rem;
+    margin-top: 9rem;
   }
   .home p {
     font-size: 5rem;
     color: #fcfcfc;
     padding: 1rem 0rem;
-    padding-left: 36rem;
+    padding-left: 0rem;
   }
   .btn {
     margin-top: 7rem;
@@ -721,8 +719,22 @@ footer p {
     height: -3rem;
   }
   input:checked + label {
-    width: 22rem;
+    width: 42rem;
+    /* height: 25rem; */
     border: 1px solid #000;
+  }
+  .card > .row > .icon {
+    display: none;
+  }
+  .description p {
+    font-size: 1.5rem;
+    padding-top: 39px;
+    padding-left: 20px;
+  }
+  .description h4 {
+    font-size: 2rem;
+    padding-top: 4px;
+    padding-left: 20px;
   }
   .media i {
     display: contents;
@@ -733,7 +745,7 @@ footer p {
   body {
     background: #dfdbd6;
     overflow-x: hidden;
-    padding-left: 1rem;
+    padding-left: 0rem;
   }
   .home {
     padding: 16rem 17rem;
@@ -752,18 +764,31 @@ footer p {
     margin: 0rem -1rem;
     width: 4rem;
     height: 37rem;
-    /* visibility: hidden;
-  } */
+    /* visibility: hidden; */
   }
+
   input:checked + label {
     width: 20rem;
-    height: 17rem;
+    height: 21rem;
     display: flex;
-    flex-direction: column;
   }
   .card {
     margin: 7rem 0rem;
     width: 4rem;
-    height: 37rem;
+    height: 21rem;
+  }
+  .card > .row > .icon {
+    display: none;
+  }
+  .description p {
+    font-size: 1.5rem;
+    padding-top: 39px;
+    padding-left: 5px;
+    margin-top: -29px;
+  }
+  .description h4 {
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 5px;
   }
 }
